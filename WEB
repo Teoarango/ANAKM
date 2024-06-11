@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAKM - Servicios Profesionales</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-image: url('https://example.com/construction-bg.jpg'); /* Reemplaza con una URL real */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .service, .project {
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contact-form button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 1em;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANAKM</h1>
+        <p>Servicios Profesionales de Construcción y Mantenimiento</p>
+    </header>
+    <div class="container">
+        <section id="services">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="service">
+                <h3>Suministro e Instalación de Persianas</h3>
+                <p>Ofrecemos una amplia variedad de persianas con instalación profesional garantizada.</p>
+            </div>
+            <div class="service">
+                <h3>Suministro e Instalación de Pisos</h3>
+                <p>Especialistas en instalación de todo tipo de pisos para hogares y oficinas.</p>
+            </div>
+            <div class="service">
+                <h3>Suministro e Instalación de Alfombras</h3>
+                <p>Instalamos alfombras de la más alta calidad para cualquier espacio.</p>
+            </div>
+            <div class="service">
+                <h3>Pisos Epóxicos</h3>
+                <p>Instalación de pisos epóxicos duraderos y de alta resistencia para diversas aplicaciones.</p>
+            </div>
+            <div class="service">
+                <h3>Mantenimiento Preventivo</h3>
+                <p>Servicios de mantenimiento preventivo para casas y oficinas.</p>
+            </div>
+            <div class="service">
+                <h3>Capacitación y Asesoría en Seguridad e Higiene</h3>
+                <p>Ofrecemos capacitación y asesoría especializada en temas de seguridad e higiene.</p>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">Proyectos Ejecutados</h2>
+            <div class="project">
+                <h3>Proyecto 1</h3>
+                <p>Descripción del proyecto ejecutado con detalles y resultados.</p>
+            </div>
+            <div class="project">
+                <h3>Proyecto 2</h3>
+                <p>Descripción del proyecto ejecutado con detalles y resultados.</p>
+            </div>
+            <!-- Añadir más proyectos según sea necesario -->
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Contacto</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="message" rows="5" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>ANAKM &copy; 2024 | Fundada en 2019</p>
+    </footer>
+</body>
+</html>
